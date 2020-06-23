@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Daily Expense</string>
+    <string name="edit_message">Enter the message</string>
+    <string name="Button_label">send message</string>
+    <string name="final_button">Enter gaming mode</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Add_income">Add income</string>
+    <string name="Add_expense">Add expense</string>
+    <string name="Transaction">Transaction</string>
+    <string name="Date_wise">Date wise</string>
+    <string name="Graph_representation">Graph_representation</string>
+    <string name="Exit">Exit</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+    <string name="datepicker">Date Picker</string>
+    <string name="datePicker">Date picker</string>
+
+</resources>

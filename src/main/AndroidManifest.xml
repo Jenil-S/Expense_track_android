@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".splash">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+            <activity
+                android:name=".MY_project"/>
+                <activity
+                    android:name=".Register">
+        </activity>
+        <activity android:name=".Home" />
+
+<activity
+            android:name=".third"
+            android:parentActivityName=".After_login" />
+        <activity
+            android:name=".After_login"
+            android:parentActivityName=".MY_project" />
+        <activity android:name=".Seventh"
+            android:parentActivityName=".After_login"></activity>
+        <activity android:name=".Sixth"
+            android:parentActivityName=".After_login"/>
+        <activity android:name=".Fifth"
+            android:parentActivityName=".After_login"/>
+        <activity android:name=".Fourth"
+            android:parentActivityName=".After_login"/>
+
+        <activity android:name=".MainActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".MessageActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".final_Activity"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".final_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="90dp">
+
+        <EditText
+            android:id="@+id/Btnexpense"
+            android:layout_width="306dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/btntxt"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="201dp"
+            android:background="@drawable/edittext"
+            android:hint="Enter your expense for"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btntxt"
+            tools:ignore="MissingConstraints">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/btntxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="131dp"
+            android:layout_marginRight="131dp"
+            android:text="Add Expense"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="5dp" />
+
+
+        <EditText
+            android:id="@+id/Btntext"
+            android:layout_width="306dp"
+            android:layout_height="41dp"
+            android:layout_alignTop="@+id/Btnexpense"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="71dp"
+            android:background="@drawable/edittext"
+            android:hint="Enter your amount"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Btnexpense"
+            tools:ignore="MissingConstraints">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="104dp"
+            android:layout_marginLeft="104dp"
+            android:layout_marginTop="396dp"
+            android:layout_marginEnd="107dp"
+            android:layout_marginRight="107dp"
+            android:background="@drawable/button_rounded"
+            android:text="Save"
+            android:textColor="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/Dateset"
+            android:layout_width="57dp"
+            android:layout_height="53dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="206dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/calender" />
+
+        <TextView
+            android:id="@+id/myDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btntxt"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="105dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="125dp"
+            android:text="Make your Date"
+            android:textAlignment="center"
+            android:textSize="23dp">
+
+        </TextView>
+        <!--<Spinner-->
+        <!--android:id="@+id/spinner1"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:layout_weight="1" />-->
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

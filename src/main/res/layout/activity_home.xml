@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".Home"
+    android:background="@color/colorPrimaryDark">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp">
+
+        <com.agrawalsuneet.dotsloader.loaders.LazyLoader
+            android:id="@+id/My_loader"
+            android:layout_width="wrap_content"
+            android:layout_height="141dp"
+            android:layout_gravity="center"
+            android:layout_margin="150dp"
+            android:layout_marginTop="2500dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            app:lazyloader_animDur="300"
+            app:lazyloader_dotsDist="10dp"
+            app:lazyloader_dotsRadius="12dp"
+            app:lazyloader_firstDelayDur="150"
+            app:lazyloader_firstDotColor="#F31717"
+            app:lazyloader_interpolator="@android:anim/accelerate_decelerate_interpolator"
+            app:lazyloader_secondDelayDur="300"
+            app:lazyloader_secondDotColor="#09F513"
+            app:lazyloader_thirdDotColor="#F8B71D"
+            android:layout_marginRight="10dp">
+
+        </com.agrawalsuneet.dotsloader.loaders.LazyLoader>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="@string/Login"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegister" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="@string/Register"
+        android:text="Register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Daily__Expense" />
+
+    <TextView
+        android:id="@+id/Daily__Expense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Daily Expense"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/colorPrimary"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

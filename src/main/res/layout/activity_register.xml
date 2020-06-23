@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnemail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Register">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+
+          android:gravity="center_horizontal">
+
+  <!--<TextView-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="52dp"-->
+        <!--android:text="Register "-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.498"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/register2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorPrimary"
+
+            app:boxStrokeWidth="2dp">
+
+            <EditText
+                android:id="@+id/etemail"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+               android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+
+                android:layout_marginRight="16dp"
+                android:ems="10"
+                android:hint="Enter the email"
+                android:inputType="textPersonName"
+
+                android:textColor="#0d0b61"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            app:passwordToggleEnabled="true"
+            android:textColorHint="@color/colorPrimary">
+          <EditText
+              android:id="@+id/etepassword"
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_marginTop="32dp"
+              android:layout_marginRight="16dp"
+              android:ems="10"
+              android:hint="Password"
+              android:inputType="textPassword"
+              android:textColor="#0d0b61"
+              app:passwordToggleEnabled="true"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.504"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toBottomOf="@+id/etemail">
+
+          </EditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              app:passwordToggleEnabled="true"
+              android:textColorHint="@color/colorPrimary">
+
+              <EditText
+                  android:id="@+id/etconfirm"
+                  android:layout_width="300dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="32dp"
+                  android:layout_gravity="center"
+                  android:layout_marginRight="16dp"
+                  android:textColor="#0d0b61"
+                  android:selectAllOnFocus="true"
+                  android:ems="10"
+                  android:hint="Confirm your password"
+                  android:inputType="textPassword"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toBottomOf="@+id/etepassword">
+
+              </EditText>
+          </com.google.android.material.textfield.TextInputLayout>
+
+          <Button
+        android:id="@+id/btnreg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/button_rounded"
+        android:text="Register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etconfirm" />
+      </LinearLayout>
+  </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

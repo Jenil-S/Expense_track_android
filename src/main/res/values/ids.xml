@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnRegister" type="id"></item>
+    <item name="Daily_Expense" type="id"></item>
+    <item name="My_loader" type="id"></item>
+    <item name="toggleButton" type="id"></item>
+    <item name="btnIncome" type="id"></item>
+    <item name="btnExpense" type="id"></item>
+    <item name="btnTransaction" type="id"></item>
+    <item name="btnDatewise" type="id"></item>
+    <item name="btnGraph" type="id"></item>
+    <item name="btnExit" type="id"></item>
+    <item name="chart" type="id"></item>
+    <item name="pieChartGraph" type="id"></item>
+</resources>
