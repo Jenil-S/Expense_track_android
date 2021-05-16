@@ -1,8 +1,12 @@
 # Expense-Tracker
-*All the expenses made by you can be added and income you receive.
-Also you can watch the date-wise expenses.
-And the Transactions made by you can also be seen.*
+_An android app just to track the expenses that you made on your daily basis_
+<br/>
 
-**The main thing is you can see the graph is generated weekly as per your expense**
+## Setup
+Just you would need is android studio(Latest version)
 
-Will add soon
+## Problem
+
+Not able to create dynamic chart.
+
+If you know then happy to merge PR :exploding_head:
