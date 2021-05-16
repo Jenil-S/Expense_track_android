@@ -7,6 +7,6 @@ Just you would need is Android Studio(Latest version)
 
 ## Problem
 
-Not able to create dynamic chart.
+Not able to create dynamic chart :exploding_head:
 
-If you know then happy to merge PR :exploding_head:
+If you know then happy to merge PR :smile:
